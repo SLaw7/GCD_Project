@@ -11,7 +11,7 @@ The script "run_analysis.R" does the following:
 
 IMPORTANT: Need to load "dplyr" package before running script.
 
-# GCD_Project Details (by step)
+## GCD_Project Details (by step)
 
 1. Reads relevant data, creates data sets: test and train, the first column is the subject, the middle columns are the feature data, and the last column is the activity label, merge the training and the test sets to create one data set
 2. create vector with column numbers of veriables that include "mean()" or "std()", extract only the measurements on the mean and standard deviation for each measurement
